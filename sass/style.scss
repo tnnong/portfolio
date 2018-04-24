@@ -1,0 +1,24 @@
+@import 'helper/_variables';
+@import 'helper/_mixins';
+
+@import 'base/_reset';
+@import 'base/_common';
+@import 'base/_effect';
+
+@import 'components/_button';
+@import 'components/_loading';
+@import 'components/_pagination';
+@import 'components/_breadcrumb';
+@import 'components/_header';
+@import 'components/_footer';
+@import 'components/_carousel-indicators';
+@import 'components/_nav-tabs';
+@import 'components/_modal';
+@import 'components/_slider';
+
+@import 'pages/_home';
+
+@import 'pages/_media_queries'; 
+
+/* run command */
+// sass --watch style.scss:../assets/css/style.css
